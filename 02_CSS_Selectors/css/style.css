@@ -1,0 +1,37 @@
+/* CSS Universal Selector */
+*{
+    font-family: monospace;
+}
+
+/* CSS element Selector */
+body {
+    font-size: 22px;
+}
+
+p {
+    color: purple;
+}
+/* it is overlaping all para color
+p {
+    color: red !important;
+}
+*/
+
+p span {
+    color: yellowgreen;
+}
+
+/* CSS Grouping Selector */
+h1, h2 {
+    color: blue;
+}
+
+/* CSS class Selector */
+.gray {
+    color: gray;
+}
+
+/* CSS ID Selector */
+#second {
+    font-style: italic;
+}
